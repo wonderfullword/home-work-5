@@ -9,7 +9,6 @@ body {
   padding: 0;
 }
 
-
 .container {
   max-width: 1170px;
   padding: 15px;
@@ -23,7 +22,8 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
+  height: 480px;
 }
 
 .promo {
@@ -86,7 +86,6 @@ body {
 }
 
 .row {
-
   list-style: none;
   border: #ccc 1px solid;
   font-size: 18px;
@@ -95,9 +94,10 @@ body {
   text-align: center;
 }
 
-
 .special-table {
-  margin-top: 20px;
+  margin-top: 40px;
+  align-self: flex-start;
+  height: 470px;
 }
 
 .row-active {
